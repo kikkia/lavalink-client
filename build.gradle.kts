@@ -155,10 +155,10 @@ tasks.withType<DokkaTask>().configureEach {
 val mavenUrl: String
     get() {
         if (release) {
-            return "https://maven.lavalink.dev/releases"
+            return "https://maven.kikkia.dev/releases"
         }
 
-        return "https://maven.lavalink.dev/snapshots"
+        return "https://maven.kikkia.dev/snapshots"
     }
 
 publishing {
